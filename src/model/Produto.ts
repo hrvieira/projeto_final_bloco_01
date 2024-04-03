@@ -43,7 +43,7 @@ export abstract class Produto {
      * Getter modelo
      * @return {number}
      */
-	public get modelo(): number {
+	public get tipo(): number {
 		return this._tipo;
 	}
 
@@ -75,7 +75,7 @@ export abstract class Produto {
      * Setter modelo
      * @param {number} value
      */
-	public set modelo(value: number) {
+	public set tipo(value: number) {
 		this._tipo = value;
 	}
 
